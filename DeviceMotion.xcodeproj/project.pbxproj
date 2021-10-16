@@ -16,6 +16,8 @@
 		0996CA41271B1F3A007B5F41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0996CA40271B1F3A007B5F41 /* main.m */; };
 		0996CA4B271B1F3B007B5F41 /* DeviceMotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0996CA4A271B1F3B007B5F41 /* DeviceMotionTests.m */; };
 		0996CA56271B1F3B007B5F41 /* DeviceMotionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0996CA55271B1F3B007B5F41 /* DeviceMotionUITests.m */; };
+		0996CA64271B2F11007B5F41 /* demo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 0996CA63271B2F11007B5F41 /* demo.PNG */; };
+		0996CA66271B2F40007B5F41 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0996CA65271B2F40007B5F41 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		0996CA51271B1F3B007B5F41 /* DeviceMotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceMotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0996CA55271B1F3B007B5F41 /* DeviceMotionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceMotionUITests.m; sourceTree = "<group>"; };
 		0996CA57271B1F3B007B5F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0996CA63271B2F11007B5F41 /* demo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.PNG; sourceTree = "<group>"; };
+		0996CA65271B2F40007B5F41 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 		0996CA22271B1F39007B5F41 = {
 			isa = PBXGroup;
 			children = (
+				0996CA63271B2F11007B5F41 /* demo.PNG */,
+				0996CA65271B2F40007B5F41 /* README.md */,
 				0996CA2D271B1F39007B5F41 /* DeviceMotion */,
 				0996CA49271B1F3B007B5F41 /* DeviceMotionTests */,
 				0996CA54271B1F3B007B5F41 /* DeviceMotionUITests */,
@@ -239,7 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0996CA64271B2F11007B5F41 /* demo.PNG in Resources */,
 				0996CA3E271B1F3A007B5F41 /* LaunchScreen.storyboard in Resources */,
+				0996CA66271B2F40007B5F41 /* README.md in Resources */,
 				0996CA3B271B1F3A007B5F41 /* Assets.xcassets in Resources */,
 				0996CA39271B1F39007B5F41 /* Main.storyboard in Resources */,
 			);
